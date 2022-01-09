@@ -10,7 +10,7 @@ export default function Home() {
             <Header />
             <UserContainer>
                 <UserPicture url="https://avatars.githubusercontent.com/u/84290343?v=4" alternativeText= "img"/>
-                <UserDetails name ="Shiellyn Ferreira" username = "ShiellynFerr" bio = "Oi eu sou a Shiellyn"/>
+                <UserDetails name ="Shiellyn Ferreira" login = "@ShiellynFerr" bio = "Oi eu sou a Shiellyn"/>
             </UserContainer>
         </Container>
     );
