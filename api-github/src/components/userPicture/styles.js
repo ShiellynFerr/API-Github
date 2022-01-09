@@ -5,7 +5,7 @@ export const Container = styled.div`
     height: 200px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction column;
 `
 
 export const ProfilePicture = styled.img`
