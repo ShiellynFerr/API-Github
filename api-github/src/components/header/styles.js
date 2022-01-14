@@ -8,6 +8,9 @@ export const HeaderSection = styled.header`
     display: flex;
     flex-direction: column;
     padding: 0;
+    @media (max-width: 430px) {
+        width: 300px;
+    } 
 `
 
 export const HeaderTitle = styled.h1`
@@ -25,6 +28,24 @@ export const HeaderInputContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    a {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        background: #FF7A00;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+        transition: ease .3s;
+        &:hover {
+            transform: scale(1.05);
+            transition: ease .3s;
+            cursor: pointer;
+        }
+    }
 `
 
 export const HeaderInput = styled.input`
@@ -35,7 +56,6 @@ export const HeaderInput = styled.input`
     padding: 0 16px;
     color: #444;
     transition: .4s ease;
-
     &:focus {
         outline: none;
         width: 220px;
@@ -55,10 +75,10 @@ export const HeaderSearchButton = styled.button`
     justify-content: center;
     color: #FFF;
     transition: ease .3s;
-
     &:hover {
         transform: scale(1.05);
         transition: ease .3s;
         cursor: pointer;
     }
-`
+
+    `
