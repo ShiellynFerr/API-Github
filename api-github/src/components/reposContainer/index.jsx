@@ -8,7 +8,7 @@ import {
 const ReposContainer = props => {
   return (
       <Section>
-          <Title>Repositórios de {(props.name)?.split(' ')[0]}</Title>
+          <Title>Repositórios</Title>
           <ListOfReposContainer>
               {(props?.repos).map(repo => (
                   <Repo onClick={() => window.location.href(repo?.html_url)} key={repo?.id}>
