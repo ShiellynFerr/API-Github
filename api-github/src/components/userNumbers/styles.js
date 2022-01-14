@@ -33,8 +33,9 @@ export const NumberContainer = styled.div`
 
     &:hover {
         cursor: pointer;
-        background-color: lightpink;
+        background-color: #eeeeec;
         transition: 0.4s ease;
         border-radius: 10px;
     }
 `;
+

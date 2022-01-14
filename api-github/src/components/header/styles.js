@@ -16,7 +16,7 @@ export const HeaderSection = styled.header`
 export const HeaderTitle = styled.h1`
     margin: 0;
     padding: 15px 0;
-    color: #E5E5E5;
+    color: #d299c2 ;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -33,7 +33,7 @@ export const HeaderInputContainer = styled.div`
         height: 30px;
         border-radius: 15px;
         border: none;
-        background: #FF7A00;
+        background: #d299c2 ;
         margin-left: 10px;
         display: flex;
         align-items: center;
